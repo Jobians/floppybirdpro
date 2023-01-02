@@ -18,8 +18,8 @@ var flyArea = $("#flyarea").height();
 var score = 0;
 var highscore = 0;
 
-var pipeheight = 90;
-var pipewidth = 52;
+var pipeheight = 100;
+var pipewidth = 60;
 var pipes = new Array();
 
 var replayclickable = false;
