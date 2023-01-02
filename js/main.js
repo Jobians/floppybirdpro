@@ -1,7 +1,7 @@
 var debugmode = false;
 
 var states = Object.freeze({
-   SplashScreen: 0,
+   SplashScreen: 1,
    GameScreen: 1,
    ScoreScreen: 2
 });
