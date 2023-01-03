@@ -308,7 +308,7 @@ Screen - Game
    left: -100px;
    width: 52px;
    height: 100%;
-   z-index: 10;
+   z-index: 50;
 
    -webkit-animation: animPipe 7500ms linear;
    animation: animPipe 7500ms linear;
@@ -317,7 +317,7 @@ Screen - Game
 .pipe_upper
 {
    position: absolute;
-   top: 50;
+   top: 0;
    width: 52px;
    background-image: url('../assets/pipe.png');
    background-repeat: repeat-y;
