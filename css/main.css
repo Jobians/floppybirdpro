@@ -318,13 +318,21 @@ Screen - Game
 {
    position: absolute;
    top: 0;
-   width: 52px;
+   width: 100px;
    background-image: url('../assets/pipe.png');
    background-repeat: repeat-y;
    background-position: center;
 }
 
-
+.pipe_upper:after
+{
+   content: "";
+   position: absolute;
+   bottom: 0;
+   width: 52px;
+   height: 26px;
+   background-image: url('../assets/pipe-down.png');
+}
 
 .pipe_lower
 {
