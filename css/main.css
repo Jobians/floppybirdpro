@@ -317,7 +317,7 @@ Screen - Game
 .pipe_upper
 {
    position: absolute;
-   top: 0;
+   top: 50;
    width: 52px;
    background-image: url('../assets/pipe.png');
    background-repeat: repeat-y;
@@ -330,7 +330,7 @@ Screen - Game
    position: absolute;
    bottom: 0;
    width: 52px;
-   height: 100%;
+   height: 26px;
    background-image: url('../assets/pipe-down.png');
 }
 
