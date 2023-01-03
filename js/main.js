@@ -273,6 +273,14 @@ function playerJump()
 
 function setBigScore(erase)
 {
+   if(score >= 10)
+      var pipeheight = 100;
+   if(score >= 20)
+      var pipeheight = 110;
+   if(score >= 30)
+      var pipeheight = 120;
+   if(score >= 40)
+      var pipeheight = 130;
    var elemscore = $("#bigscore");
    elemscore.empty();
 
