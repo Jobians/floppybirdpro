@@ -314,17 +314,17 @@ Screen - Game
    animation: animPipe 7500ms linear;
 }
 
-
-
-.pipe_upper:after
+.pipe_upper
 {
-   content: "";
    position: absolute;
-   bottom: 0;
+   top: 0;
    width: 52px;
-   height: 26px;
-   background-image: url('../assets/pipe-down.png');
+   background-image: url('../assets/pipe.png');
+   background-repeat: repeat-y;
+   background-position: center;
 }
+
+
 
 .pipe_lower
 {
