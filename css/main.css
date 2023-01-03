@@ -49,22 +49,7 @@
    to { background-position: 0px -96px; }
 }
 
-@-webkit-keyframes animPipe {
-   0% { left: 900px; }
-   100% { left: -100px; }
-}
-@-moz-keyframes animPipe {
-   0% { left: 900px; }
-   100% { left: -500px; }
-}
-@-o-keyframes animPipe {
-   0% { left: 900px; }
-   100% { left: -500px; }
-}
-@keyframes animPipe {
-   0% { left: 900px; }
-   100% { left: -500px; }
-}
+
 
 @-webkit-keyframes animCeiling {
    0% { background-position: 0px 0px; }
