@@ -388,6 +388,7 @@ function showScore()
    soundSwoosh.play();
 
    //show the scoreboard
+   alert("Hello! I am an alert box!");
    $("#scoreboard").css({ y: '40px', opacity: 0 }); //move it down so we can slide it up
    $("#replay").css({ y: '40px', opacity: 0 });
    $("#scoreboard").transition({ y: '0px', opacity: 1}, 600, 'ease', function() {
