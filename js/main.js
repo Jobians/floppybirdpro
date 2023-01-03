@@ -18,7 +18,7 @@ var flyArea = $("#flyarea").height();
 var score = 0;
 var highscore = 0;
 
-var pipeheight = 120;
+var pipeheight = 100;
 var pipewidth = 60;
 var pipes = new Array();
 
@@ -38,11 +38,6 @@ var loopGameloop;
 var loopPipeloop;
 
 $(document).ready(function() {
-   if(window.location.search == "?debug")
-      debugmode = true;
-   if(window.location.search == "?easy")
-      pipeheight = 200;
-
    //get the highscore
    var savedscore = getCookie("highscore");
    if(savedscore != "")
@@ -273,11 +268,6 @@ function playerJump()
 
 function setBigScore(erase)
 {
-   if(score >= 3)
-      var pipeheight = 80;
-   if(score >= 5)
-      var pipeheight = 50;
-
    var elemscore = $("#bigscore");
    elemscore.empty();
 
