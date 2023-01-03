@@ -199,12 +199,14 @@ Screen - Game
 {
    position: absolute;
    opacity: 0;
-   top: 75px;
-   left: 70px;
-   width: 188px;
-   height: 170px;
+   top: 45px;
+   left: 65px;
+   width: 300px;
+   height: 250px;
    background-image: url('../assets/splash.png');
    background-repeat: no-repeat;
+   background-position: center bottom;
+   text-align: center;
 }
 
 #scoreboard
